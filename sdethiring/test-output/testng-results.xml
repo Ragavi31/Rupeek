@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-24T18:57:29 IST" name="Default suite" finished-at="2020-04-24T18:57:37 IST" duration-ms="8210">
+    <groups>
+    </groups>
+    <test started-at="2020-04-24T18:57:29 IST" name="Default test" finished-at="2020-04-24T18:57:37 IST" duration-ms="8210">
+      <class name="com.tyss.restapitesting.scripts.AuthentiateTest">
+        <test-method is-config="true" signature="preConfiguration()[pri:0, instance:com.tyss.restapitesting.scripts.AuthentiateTest@346d61be]" started-at="2020-04-24T18:57:25 IST" name="preConfiguration" finished-at="2020-04-24T18:57:29 IST" duration-ms="3534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConfiguration -->
+        <test-method signature="authenticate()[pri:0, instance:com.tyss.restapitesting.scripts.AuthentiateTest@346d61be]" started-at="2020-04-24T18:57:29 IST" name="authenticate" finished-at="2020-04-24T18:57:36 IST" duration-ms="7121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authenticate -->
+        <test-method signature="getAllCustomers()[pri:0, instance:com.tyss.restapitesting.scripts.AuthentiateTest@346d61be]" started-at="2020-04-24T18:57:36 IST" name="getAllCustomers" finished-at="2020-04-24T18:57:37 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllCustomers -->
+        <test-method signature="getUserWithPhoneNum()[pri:0, instance:com.tyss.restapitesting.scripts.AuthentiateTest@346d61be]" started-at="2020-04-24T18:57:37 IST" name="getUserWithPhoneNum" finished-at="2020-04-24T18:57:37 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserWithPhoneNum -->
+      </class> <!-- com.tyss.restapitesting.scripts.AuthentiateTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
