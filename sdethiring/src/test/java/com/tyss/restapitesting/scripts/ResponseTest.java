@@ -3,6 +3,7 @@ package com.tyss.restapitesting.scripts;
 import static io.restassured.RestAssured.given;
 
 import org.json.simple.JSONObject;
+import org.junit.Assert;
 import org.testng.annotations.Test;
 
 import com.tyss.restapitesting.generic.BaseLib;
@@ -17,7 +18,7 @@ import io.restassured.specification.RequestSpecification;
  * @author Ragavi
  *
  */
-public class AuthentiateTest extends BaseLib {
+public class ResponseTest extends BaseLib {
 	String token;
 	String phoneNo;
 
@@ -61,5 +62,7 @@ public class AuthentiateTest extends BaseLib {
 				.get(IEndPoints.GET_SINGLE_RESOURCE);
 		response.prettyPrint();
 		response.then().assertThat().statusCode(200).and().contentType(ContentType.JSON);
+		String body=response.getBody().asString();
+		Assert.assertTrue(body.contains(phoneNo));
 	}
 }
